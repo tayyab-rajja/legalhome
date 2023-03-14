@@ -47,6 +47,8 @@ body {
   padding: 8px 40px 8px 40px;
 }
 
+
+
 .blue-sec {
   
   background-color: #2cc4ed;
@@ -65,3 +67,44 @@ body {
   margin-top: 30px;
 }
 
+
+
+.services h5{
+  font-weight: bold;
+  text-align: center;
+}
+.services p{
+  text-align: center;
+  padding-top: 20px;
+}
+
+
+.legal-docs{
+  padding: 60px 140px 60px 140px;
+}
+.legal-docs h2{
+  color: #2cc4ed;
+  font-weight: bold;
+}
+.legal-docs .margin{
+  margin-top: 50px;
+}
+.legal-docs h5{
+  color: #2cc4ed;
+  font-weight: bold;
+}
+.legal-docs img{
+  height: 26px;
+  width: 26px;
+}
+.legal-docs .button {
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 6px 37px 6px 36px;
+  font-size: 18px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  color: white;
+  /* background-color: #2cc4ed; */
+  background: rgb(25 166 219 / 0.35);
+  border-radius: 30px;
+}
