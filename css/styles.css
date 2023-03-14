@@ -102,6 +102,9 @@ body {
   background: rgb(25 166 219 / 0.35);
   border-radius: 30px;
 }
+.legal-docs .button:hover{
+  color: rgb(0, 0, 0);
+}
 
 /* CAROUSEL */
 
