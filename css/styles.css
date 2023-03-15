@@ -26,6 +26,21 @@ body {
   background-blend-mode: darken;
   padding: 300px 0px;
 }
+.header-img .button {
+  padding: 6px 37px 6px 36px;
+  font-weight: bold;
+  font-size: 22px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  color: white;
+  background: #3ba8be;
+
+  width: 120;
+  border-radius: 30px;
+}
+.header-img .button:hover {
+  background-color: #2cc4ed;
+  color: white;
+}
 .banner-inner {
   background-color: transparent;
   text-align: center;
@@ -52,6 +67,7 @@ body {
   padding: 20px 0px;
 }
 .blue-sec h3 {
+  margin-top: 20px;
   color: white;
   font-weight: bold;
 }
@@ -65,8 +81,12 @@ body {
 }
 
 .services h5 {
+  margin-top: 20px;
   font-weight: bold;
   text-align: center;
+}
+.services img{
+  width: 30%;
 }
 .services p {
   text-align: center;
@@ -102,8 +122,8 @@ body {
   background: rgb(25 166 219 / 0.35);
   border-radius: 30px;
 }
-.legal-docs .button:hover{
-  color: rgb(0, 0, 0);
+.legal-docs .button:hover {
+  background-color: #2cc4ed;
 }
 
 /* CAROUSEL */
@@ -168,6 +188,9 @@ body {
   width: 120;
   border-radius: 30px;
 }
+.carousel-item a:hover{
+  color: #2cc4ed;
+}
 
 .carousel-item img {
   justify-content: center;
@@ -179,20 +202,18 @@ body {
   display: flex;
   justify-content: center;
 }
-.margins{
+.margins {
   padding: 60px 100px 60px 100px;
 }
 .carousel-item-prev {
   color: black;
 }
 
-
-
-.white-box{
+.white-box {
   background-color: white;
   padding: 20px;
 }
-.blue-sec a{
+.blue-sec a {
   padding: 6px 24px 6px 24px;
   font-weight: bold;
   font-size: 16px;
@@ -203,10 +224,32 @@ body {
   border-radius: 30px;
   margin-top: 20px;
 }
-.blue-sec .padding{
+.blue-sec a:hover{
+  color: #2cc4ed;
+}
+.blue-sec .padding {
   padding: 30px 350px;
 }
-.vetted h4{
+.vetted h4 {
   font-weight: bold;
+  color: #2cc4ed;
+}
+
+.footer-text {
+  background-color: #2b6271;
+  color: white;
+  text-align: center;
+  padding: 30px 0px 30px 0px;
+}
+.footer-padding {
+  padding: 30px 50px 30px 50px;
+  background-color: black;
+  color: white;
+}
+.footer-padding a {
+  color: white;
+  text-decoration: none;
+}
+.footer-padding a:hover {
   color: #2cc4ed;
 }
