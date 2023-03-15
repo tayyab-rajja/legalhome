@@ -2,6 +2,10 @@ body {
   font-family: "poppins";
 }
 
+* {
+  outline: 1px solid red;
+}
+
 /* NAVBAR */
 
 .button {
@@ -89,7 +93,7 @@ body {
   padding: 48px;
 }
 .services img {
-  width: 30%;
+  width: 20%;
 }
 .services p {
   text-align: center;
@@ -421,13 +425,56 @@ body {
   .footer-margin {
     margin-top: 14px;
   }
+
+  .banner-inner p {
+    font-size: 16px;
+  }
+  .blue-sec h3 {
+    font-size: 1.75rem;
+  }
+  .blue-sec li h5 {
+    font-size: 1.25rem;
+  }
+  .blue-sec p {
+    font-size: 16px;
+  }
+  .vetted-pad {
+    padding: 40px;
+  }
+  .vetted h4 {
+    font-size: 1.5rem;
+  }
+  .vetted p {
+    font-size: 16px;
+  }
+  .commonly h2 {
+    font-size: 2rem;
+  }
+  .footer-text p {
+    font-size: 16px;
+    padding: 5px;
+  }
+
+
+  .legal-docs h2 {
+    font-size: 2rem;
+  }
+  .legal-docs h5 {
+    font-size: 1.25rem;
+  }
+  .blue-sec h5 {
+    font-size: 1.25rem;
+  }
+  .services p {
+    font-size: 16px;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .commonly h2 {
     font-size: 1.5rem;
-}
+  }
   .header-img {
     padding: 130px 0px;
   }
@@ -460,13 +507,59 @@ body {
   .footer-margin {
     margin-top: 14px;
   }
+
+  .banner-inner p {
+    font-size: 16px;
+  }
+  .blue-sec h3 {
+    font-size: 1.75rem;
+  }
+  .blue-sec li h5 {
+    font-size: 1.25rem;
+  }
+  .blue-sec p {
+    font-size: 16px;
+  }
+  .vetted-pad {
+    padding: 40px;
+  }
+  .vetted h4 {
+    font-size: 1.5rem;
+  }
+  .vetted p {
+    font-size: 16px;
+  }
+  .commonly h2 {
+    font-size: 2rem;
+  }
+  .footer-text p {
+    font-size: 16px;
+    padding: 5px;
+  }
+
+  .legal-docs h2 {
+    font-size: 2rem;
+  }
+  .legal-docs h5 {
+    font-size: 1.25rem;
+  }
+  .blue-sec h5 {
+    font-size: 1.25rem;
+  }
+  .services p {
+    font-size: 16px;
+  }
+  
+  .footer-padding{
+    font-size: 16px;
+  }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   .commonly h2 {
     font-size: 1.5rem;
-}
+  }
   .header-img {
     padding: 160px 0px;
   }
@@ -526,6 +619,9 @@ body {
     font-size: 1.25rem;
   }
   .services p {
+    font-size: 16px;
+  }
+  .footer-padding{
     font-size: 16px;
   }
 }
@@ -596,6 +692,9 @@ body {
     font-size: 1.25rem;
   }
   .services p {
+    font-size: 16px;
+  }
+  .footer-padding{
     font-size: 16px;
   }
 }
