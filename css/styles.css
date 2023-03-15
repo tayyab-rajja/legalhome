@@ -85,7 +85,10 @@ body {
   font-weight: bold;
   text-align: center;
 }
-.services img{
+.services-pad {
+  padding: 48px;
+}
+.services img {
   width: 30%;
 }
 .services p {
@@ -124,6 +127,10 @@ body {
 }
 .legal-docs .button:hover {
   background-color: #2cc4ed;
+}
+
+.vetted-pad {
+  padding: 40px;
 }
 
 /* CAROUSEL */
@@ -188,7 +195,7 @@ body {
   width: 120;
   border-radius: 30px;
 }
-.carousel-item a:hover{
+.carousel-item a:hover {
   color: #2cc4ed;
 }
 
@@ -224,7 +231,7 @@ body {
   border-radius: 30px;
   margin-top: 20px;
 }
-.blue-sec a:hover{
+.blue-sec a:hover {
   color: #2cc4ed;
 }
 .blue-sec .padding {
@@ -252,4 +259,343 @@ body {
 }
 .footer-padding a:hover {
   color: #2cc4ed;
+}
+
+/* MEDIA QUERIS */
+
+@media (min-width: 350px) {
+  .footer-margin {
+    margin-top: 18px;
+  }
+  .services-pads {
+    padding: 0px;
+  }
+  .header-img {
+    padding: 50px 0px;
+  }
+  .blue-sec h3 {
+    font-size: 16px;
+    margin-top: 16px;
+  }
+  .blue-sec li h5 {
+    margin-top: 24px;
+    font-size: 16px;
+  }
+  .blue-sec p {
+    font-size: 12px;
+  }
+  .legal-docs {
+    padding: 25px 12px 30px 12px;
+  }
+  .banner-inner span {
+    font-size: 14px;
+  }
+  .banner-inner p {
+    font-size: 12px;
+  }
+  .header-img .button {
+    padding: 4px 14px 4px 14px;
+    font-size: 12px;
+  }
+  .services-pad {
+    padding: 30px 20px 30px 20px;
+  }
+  .legal-docs h5 {
+    font-size: 16px;
+  }
+  .legal-docs h2 {
+    font-size: 18px;
+  }
+  .legal-docs .margin {
+    margin-top: 20px;
+  }
+  .commonly h2 {
+    font-size: 20px;
+  }
+  .margins {
+    padding: 50px 60px 50px 60px;
+  }
+  .carousel-item a {
+    padding: 6px 16px 6px 16px;
+    font-size: 12px;
+  }
+  .carousel-item h5 {
+    font-size: 14px;
+  }
+  .blue-sec .padding {
+    padding: 10px 40px;
+  }
+  .blue-sec h5 {
+    font-size: 16px;
+  }
+  .footer-margin {
+    margin-top: 14px;
+  }
+  .vetted h4 {
+    font-size: 18px;
+  }
+  .vetted-pad {
+    padding: 10px;
+  }
+  .vetted p {
+    font-size: 12px;
+  }
+  .footer-text p {
+    font-size: 12px;
+    padding: 5px;
+  }
+  .footer-padding {
+    font-size: 12px;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .header-img {
+    padding: 80px 0px;
+  }
+  .banner-inner span {
+    font-size: 22px;
+  }
+  .header-img .button {
+    padding: 5px 20px 5px 20px;
+    font-size: 14px;
+  }
+  .services-pad {
+    padding: 30px 20px 30px 20px;
+  }
+  .services h5 {
+    font-size: 16px;
+  }
+  .services p {
+    font-size: 14px;
+    text-align: center;
+    padding-top: 10px;
+  }
+  .legal-docs {
+    padding: 18px 40px 30px 40px;
+  }
+  .legal-docs .margin {
+    margin-top: 30px;
+  }
+  .blue-sec .padding {
+    padding: 16px 60px;
+  }
+  .footer-margin {
+    margin-top: 14px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+  .header-img {
+    padding: 130px 0px;
+  }
+  .banner-inner span {
+    font-size: 30px;
+  }
+  .header-img .button {
+    padding: 5px 20px 5px 20px;
+    font-size: 16px;
+  }
+  .services-pad {
+    padding: 30px 20px 30px 20px;
+  }
+  .services h5 {
+    font-size: 16px;
+  }
+  .services p {
+    font-size: 14px;
+    text-align: center;
+    padding-top: 10px;
+  }
+  .legal-docs {
+    padding: 30px 60px 40px 60px;
+  }
+  .legal-docs .margin {
+    margin-top: 30px;
+  }
+  .blue-sec .padding {
+    padding: 30px 80px;
+  }
+  .footer-margin {
+    margin-top: 14px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .commonly h2 {
+    font-size: 1.5rem;
+}
+  .header-img {
+    padding: 130px 0px;
+  }
+  .banner-inner span {
+    font-size: 30px;
+  }
+  .header-img .button {
+    padding: 6px 20px 6px 20px;
+    font-size: 18px;
+  }
+  .services-pad {
+    padding: 30px 20px 30px 20px;
+  }
+  .legal-docs {
+    padding: 50px 120px 60px 50px;
+  }
+  .margins {
+    padding: 50px 60px 50px 60px;
+  }
+  .carousel-item a {
+    padding: 6px 16px 6px 16px;
+    font-size: 12px;
+  }
+  .carousel-item h5 {
+    font-size: 14px;
+  }
+  .blue-sec .padding {
+    padding: 30px 180px;
+  }
+  .footer-margin {
+    margin-top: 14px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .commonly h2 {
+    font-size: 1.5rem;
+}
+  .header-img {
+    padding: 160px 0px;
+  }
+  .banner-inner span {
+    font-size: 40px;
+  }
+  .header-img .button {
+    padding: 6px 30px 6px 30px;
+    font-size: 20px;
+  }
+  .legal-docs {
+    padding: 60px 110px 60px 110px;
+  }
+  .margins {
+    padding: 60px 86px 60px 86px;
+  }
+  .blue-sec .padding {
+    padding: 30px 290px;
+  }
+
+  .banner-inner p {
+    font-size: 16px;
+  }
+  .blue-sec h3 {
+    font-size: 1.75rem;
+  }
+  .blue-sec li h5 {
+    font-size: 1.25rem;
+  }
+  .blue-sec p {
+    font-size: 16px;
+  }
+  .vetted-pad {
+    padding: 40px;
+  }
+  .vetted h4 {
+    font-size: 1.5rem;
+  }
+  .vetted p {
+    font-size: 16px;
+  }
+  .commonly h2 {
+    font-size: 2rem;
+  }
+  .footer-text p {
+    font-size: 16px;
+    padding: 5px;
+  }
+
+  .legal-docs h2 {
+    font-size: 2rem;
+  }
+  .legal-docs h5 {
+    font-size: 1.25rem;
+  }
+  .blue-sec h5 {
+    font-size: 1.25rem;
+  }
+  .services p {
+    font-size: 16px;
+  }
+}
+
+/* Extra extra large devices (extra large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  .banner-inner span {
+    font-size: 50px;
+  }
+  .header-img {
+    padding: 280px 0px;
+  }
+  .header-img .button {
+    padding: 6px 30px 6px 30px;
+    font-size: 20px;
+  }
+  .legal-docs {
+    padding: 60px 120px 60px 120px;
+  }
+  .margins {
+    padding: 55px 80px 55px 80px;
+  }
+  .blue-sec .padding {
+    padding: 30px 300px;
+  }
+
+  .banner-inner p {
+    font-size: 16px;
+  }
+  .blue-sec h3 {
+    font-size: 1.75rem;
+  }
+  .blue-sec li h5 {
+    font-size: 1.25rem;
+  }
+  .blue-sec p {
+    font-size: 16px;
+  }
+  .vetted-pad {
+    padding: 40px;
+  }
+  .vetted h4 {
+    font-size: 1.5rem;
+  }
+  .vetted p {
+    font-size: 16px;
+  }
+  .commonly h2 {
+    font-size: 2rem;
+  }
+  .footer-text p {
+    font-size: 16px;
+    padding: 5px;
+  }
+  .legal-docs h2 {
+    font-size: 2rem;
+  }
+  .legal-docs h5 {
+    font-size: 1.25rem;
+  }
+  .blue-sec h5 {
+    font-size: 1.25rem;
+  }
+  .services h5 {
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.25rem;
+  }
+  .services p {
+    font-size: 16px;
+  }
 }
